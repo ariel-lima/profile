@@ -1,0 +1,96 @@
+@import url("https://use.typekit.net/rlf6hbn.css");
+@import url(https://use.fontawesome.com/releases/v6.1.2/css/all.css);
+@import url("video.css");
+@import url("card.css");
+@import url("button.css");
+
+.container {
+  width: 800px;
+  text-align: center;
+
+}
+
+body {
+  background-color: #F7F9FC;
+  font-family: 'New Order', sans-serif;
+  color: #575F7D;
+  font-size: 16px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.card-white img {
+  position: 1px;
+  border-radius: 30%;
+}
+
+h1, h2, h3 {
+font-family: 'New Order', sans-serif;
+justify-content: center;
+
+}
+
+h1 {
+  color: #F7F9FC;
+  font-size: 45px;
+  font-weight: 500;
+  top: 50%;
+
+}
+
+h2 {
+  color: #F7F9FC;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+h3 {
+  color: #127780;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+a {
+  color: #127780;
+  text-decoration: dotted;
+  font-size: 35px;
+}
+
+p {
+  color: #127780;
+}
+
+a:hover {
+  color: #c80f78;
+  text-decoration: dotted;
+  font-size: 40px;
+  transition:.6s ease;
+}
+
+.video {
+  position: absolute;
+  width: 100%;
+  height: 15px;
+  display: block;
+}
+
+@media (max-width: 960px) {
+
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  .container {
+    width: 300px;
+  }
+}
